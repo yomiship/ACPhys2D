@@ -1,2 +1,0 @@
-/Users/Chris/ACPhys2D/build/CMakeFiles/main.dir
-/Users/Chris/ACPhys2D/build/Objects/CMakeFiles/object.dir

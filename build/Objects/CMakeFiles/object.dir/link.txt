@@ -1,2 +1,0 @@
-/usr/bin/ar cq libobject.a  CMakeFiles/object.dir/Square.cpp.o
-/usr/bin/ranlib libobject.a
