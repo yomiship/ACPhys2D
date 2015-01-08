@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Chris/ACPhys2D/Objects/Square.cpp
+iostream
+-
+Square.h
+/Users/Chris/ACPhys2D/Objects/Square.h
+
+/Users/Chris/ACPhys2D/Objects/Square.h
+iostream
+-
+
