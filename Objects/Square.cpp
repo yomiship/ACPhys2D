@@ -1,11 +1,25 @@
 #include <iostream>
+#include "Square.h"
 
 using namespace std;
 
-class Square {
-    float x;
-    float v_x;
+Square::Square(float xpos, float xvel) {
+    x = xpos;
+    v_x = xvel;
+}
 
-  public:
-    float setX(float);
-    float setVX(float);  
+void Square::setX(float newX) {
+    x = newX;
+}
+
+void Square::setVX(float newVX) {
+    v_x = newVX;
+}
+
+float Square::getX() {
+    return x;
+}
+
+float Square::getVX() {
+    return v_x;
+}
